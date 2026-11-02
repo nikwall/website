@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="vis" viewBox="0 0 1000 400" role="img" aria-label="Same team, better manager, more points: with a manager from the top of the ability distribution instead of the bottom, a team wins considerably more points. Schematic." font-family="Roboto, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <symbol id="mgr-person" viewBox="-16 -36 32 58"><circle cx="0" cy="-24" r="10"/><path d="M-15 21 v-15 a15 15 0 0 1 30 0 v15 z"/></symbol>
+  </defs>
+  <rect width="1000" height="400" fill="#f1f5f0"/>
+  <text x="48" y="104" font-size="46" font-weight="300" fill="#135b49">Same team,</text>
+  <text x="48" y="158" font-size="46" font-weight="300" fill="#135b49">better manager,</text>
+  <text x="48" y="212" font-size="46" font-weight="300" fill="#135b49">more points.</text>
+  <text x="48" y="261" font-size="19" font-weight="300" fill="#2f3639">Bundesliga managers often switch clubs,</text>
+  <text x="48" y="288" font-size="19" font-weight="300" fill="#2f3639">which separates their effect from the team's.</text>
+  <text x="48" y="315" font-size="19" font-weight="300" fill="#2f3639">That effect predicts future results.</text>
+  <text x="48" y="352" font-size="15" font-weight="300" fill="#5b6366">Schematic, not data.</text>
+
+  <g font-size="15" font-weight="500" fill="#5b6366" letter-spacing="1.5">
+    <text x="470" y="74">MANAGER FROM THE BOTTOM</text>
+    <text x="470" y="214">MANAGER FROM THE TOP</text>
+  </g>
+
+  <!-- The same squad in both rows; only the manager differs -->
+  <g fill="#9dc09f">
+    <use href="#mgr-person" x="470" y="110" width="20" height="36"/>
+    <use href="#mgr-person" x="491" y="110" width="20" height="36"/>
+    <use href="#mgr-person" x="512" y="110" width="20" height="36"/>
+    <use href="#mgr-person" x="533" y="110" width="20" height="36"/>
+    <use href="#mgr-person" x="554" y="110" width="20" height="36"/>
+    <use href="#mgr-person" x="575" y="110" width="20" height="36"/>
+    <use href="#mgr-person" x="596" y="110" width="20" height="36"/>
+    <use href="#mgr-person" x="617" y="110" width="20" height="36"/>
+    <use href="#mgr-person" x="638" y="110" width="20" height="36"/>
+    <use href="#mgr-person" x="659" y="110" width="20" height="36"/>
+    <use href="#mgr-person" x="680" y="110" width="20" height="36"/>
+    <use href="#mgr-person" x="470" y="250" width="20" height="36"/>
+    <use href="#mgr-person" x="491" y="250" width="20" height="36"/>
+    <use href="#mgr-person" x="512" y="250" width="20" height="36"/>
+    <use href="#mgr-person" x="533" y="250" width="20" height="36"/>
+    <use href="#mgr-person" x="554" y="250" width="20" height="36"/>
+    <use href="#mgr-person" x="575" y="250" width="20" height="36"/>
+    <use href="#mgr-person" x="596" y="250" width="20" height="36"/>
+    <use href="#mgr-person" x="617" y="250" width="20" height="36"/>
+    <use href="#mgr-person" x="638" y="250" width="20" height="36"/>
+    <use href="#mgr-person" x="659" y="250" width="20" height="36"/>
+    <use href="#mgr-person" x="680" y="250" width="20" height="36"/>
+  </g>
+  <line x1="712" y1="94" x2="712" y2="150" stroke="#9dc09f" stroke-width="1.5" stroke-dasharray="3 4"/>
+  <line x1="712" y1="234" x2="712" y2="290" stroke="#9dc09f" stroke-width="1.5" stroke-dasharray="3 4"/>
+  <use href="#mgr-person" x="722" y="90" width="32" height="60" fill="#135b49"/>
+  <use href="#mgr-person" x="722" y="230" width="32" height="60" fill="#135b49"/>
+  <text x="470" y="172" font-size="15" font-weight="300" fill="#5b6366">same players</text>
+  <text x="738" y="172" font-size="15" font-weight="300" fill="#5b6366" text-anchor="middle">manager</text>
+
+  <!-- Points: the extra points are what the better manager adds -->
+  <rect x="780" y="106" width="96" height="28" rx="4" fill="#9dc09f"/>
+  <text x="886" y="127" font-size="17" font-weight="300" fill="#5b6366">points</text>
+  <rect x="780" y="246" width="96" height="28" rx="4" fill="#9dc09f"/>
+  <rect x="872" y="246" width="78" height="28" rx="4" fill="#bb2649"/>
+  <rect x="872" y="246" width="8" height="28" fill="#bb2649"/>
+  <text x="950" y="304" font-size="17" font-weight="300" fill="#bb2649" text-anchor="end">considerably more</text>
+</svg>

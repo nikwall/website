@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="vis" viewBox="0 0 1000 400" role="img" aria-label="In groups, gender matters: alone, men and women lie about equally; in pairs, male and mixed pairs lie more than female pairs. Schematic." font-family="Roboto, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <symbol id="ghg-person" viewBox="-16 -36 32 58"><circle cx="0" cy="-24" r="10"/><path d="M-15 21 v-15 a15 15 0 0 1 30 0 v15 z"/></symbol>
+  </defs>
+  <rect width="1000" height="400" fill="#f1f5f0"/>
+  <text x="48" y="104" font-size="46" font-weight="300" fill="#135b49">In groups,</text>
+  <text x="48" y="158" font-size="46" font-weight="300" fill="#135b49">gender matters.</text>
+  <text x="48" y="234" font-size="19" font-weight="300" fill="#2f3639">A die-rolling experiment: alone, men and</text>
+  <text x="48" y="261" font-size="19" font-weight="300" fill="#2f3639">women lie about equally. In pairs, male</text>
+  <text x="48" y="288" font-size="19" font-weight="300" fill="#2f3639">and mixed pairs lie more than female pairs.</text>
+
+  <g font-size="15" font-weight="500" fill="#5b6366" letter-spacing="1.5" text-anchor="middle">
+    <text x="555" y="74">ALONE</text>
+    <text x="815" y="74">IN PAIRS</text>
+  </g>
+  <line x1="655" y1="92" x2="655" y2="330" stroke="#d9e6d9" stroke-width="1.5"/>
+  <line x1="480" y1="300" x2="630" y2="300" stroke="#5b6366" stroke-width="1.5"/>
+  <line x1="680" y1="300" x2="950" y2="300" stroke="#5b6366" stroke-width="1.5"/>
+  <use href="#ghg-person" x="500" y="92" width="30" height="56" fill="#135b49"/><rect x="493" y="195" width="44" height="105" rx="4" fill="#9dc09f"/><use href="#ghg-person" x="580" y="92" width="30" height="56" fill="#135b49"/><rect x="573" y="195" width="44" height="105" rx="4" fill="#9dc09f"/><use href="#ghg-person" x="688" y="100" width="26" height="48" fill="#135b49"/><use href="#ghg-person" x="716" y="100" width="26" height="48" fill="#135b49"/><rect x="693" y="160" width="44" height="140" rx="4" fill="#9dc09f"/><use href="#ghg-person" x="788" y="100" width="26" height="48" fill="#135b49"/><use href="#ghg-person" x="816" y="100" width="26" height="48" fill="#135b49"/><rect x="793" y="168" width="44" height="132" rx="4" fill="#9dc09f"/><use href="#ghg-person" x="888" y="100" width="26" height="48" fill="#135b49"/><use href="#ghg-person" x="916" y="100" width="26" height="48" fill="#135b49"/><rect x="893" y="244" width="44" height="56" rx="4" fill="#bb2649"/>
+  <g font-size="15" font-weight="400" fill="#5b6366" text-anchor="middle"><text x="515" y="324">man</text><text x="595" y="324">woman</text><text x="715" y="324">male</text><text x="815" y="324">mixed</text><text x="915" y="324">female</text></g>
+  <text x="480" y="362" font-size="15" font-weight="300" fill="#5b6366">Bars: lying within each panel, schematic.</text>
+</svg>

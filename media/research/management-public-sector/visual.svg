@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="vis" viewBox="0 0 1000 400" role="img" aria-label="Better-managed towns are more attractive: municipalities with more structured management score higher on how attractive they are to residents and firms, and how much of it a town uses is not explained by state, region or size. Schematic." font-family="Roboto, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <symbol id="mps-person" viewBox="-16 -36 32 58"><circle cx="0" cy="-24" r="10"/><path d="M-15 21 v-15 a15 15 0 0 1 30 0 v15 z"/></symbol>
+    <symbol id="mps-firm" viewBox="0 0 30 28"><path d="M1 28 V12 l8 5 V12 l8 5 V12 l8 5 V2 h4 V28 z"/></symbol>
+    <symbol id="mps-hall" viewBox="0 0 120 84"><path d="M6 28 L60 4 L114 28 Z"/><rect x="6" y="30" width="108" height="6"/><rect x="16" y="40" width="12" height="32"/><rect x="40" y="40" width="12" height="32"/><rect x="68" y="40" width="12" height="32"/><rect x="92" y="40" width="12" height="32"/><rect x="2" y="74" width="116" height="8"/></symbol>
+  </defs>
+  <rect width="1000" height="400" fill="#f1f5f0"/>
+  <text x="48" y="104" font-size="46" font-weight="300" fill="#135b49">Better-managed</text>
+  <text x="48" y="158" font-size="46" font-weight="300" fill="#135b49">towns are more</text>
+  <text x="48" y="212" font-size="46" font-weight="300" fill="#135b49">attractive.</text>
+  <text x="48" y="261" font-size="19" font-weight="300" fill="#2f3639">A survey of German municipalities:</text>
+  <text x="48" y="288" font-size="19" font-weight="300" fill="#2f3639">management varies widely, and state,</text>
+  <text x="48" y="315" font-size="19" font-weight="300" fill="#2f3639">region or size do not explain why.</text>
+  <text x="48" y="352" font-size="15" font-weight="300" fill="#5b6366">Schematic, not data.</text>
+
+  <text x="720" y="74" font-size="15" font-weight="500" fill="#5b6366" letter-spacing="1.5" text-anchor="middle">TWO SIMILAR TOWNS</text>
+  <use href="#mps-hall" x="540" y="90" width="100" height="70" fill="#135b49"/>
+  <use href="#mps-hall" x="800" y="90" width="100" height="70" fill="#135b49"/>
+  <line x1="720" y1="96" x2="720" y2="306" stroke="#d9e6d9" stroke-width="1.5"/>
+
+  <g font-size="14" font-weight="400" fill="#5b6366" text-anchor="middle">
+    <text x="590" y="194">structured management</text>
+    <text x="850" y="194">structured management</text>
+    <text x="590" y="248">residents and firms</text>
+    <text x="850" y="248">residents and firms</text>
+  </g>
+  <rect x="521" y="206" width="18" height="18" rx="3" fill="#135b49"/><rect x="545" y="206" width="18" height="18" rx="3" fill="#135b49"/><rect x="569" y="206" width="18" height="18" rx="3" fill="none" stroke="#bb2649" stroke-width="2" stroke-dasharray="4 3"/><rect x="593" y="206" width="18" height="18" rx="3" fill="none" stroke="#bb2649" stroke-width="2" stroke-dasharray="4 3"/><rect x="617" y="206" width="18" height="18" rx="3" fill="none" stroke="#bb2649" stroke-width="2" stroke-dasharray="4 3"/><rect x="641" y="206" width="18" height="18" rx="3" fill="none" stroke="#bb2649" stroke-width="2" stroke-dasharray="4 3"/>
+  <rect x="781" y="206" width="18" height="18" rx="3" fill="#135b49"/><rect x="805" y="206" width="18" height="18" rx="3" fill="#135b49"/><rect x="829" y="206" width="18" height="18" rx="3" fill="#135b49"/><rect x="853" y="206" width="18" height="18" rx="3" fill="#135b49"/><rect x="877" y="206" width="18" height="18" rx="3" fill="#135b49"/><rect x="901" y="206" width="18" height="18" rx="3" fill="#135b49"/>
+  <use href="#mps-person" x="562" y="258" width="22" height="40" fill="#135b49"/><use href="#mps-firm" x="588" y="270" width="30" height="28" fill="#135b49"/>
+  <use href="#mps-person" x="779" y="258" width="22" height="40" fill="#135b49"/><use href="#mps-person" x="805" y="258" width="22" height="40" fill="#135b49"/><use href="#mps-person" x="831" y="258" width="22" height="40" fill="#135b49"/><use href="#mps-firm" x="857" y="270" width="30" height="28" fill="#135b49"/><use href="#mps-firm" x="891" y="270" width="30" height="28" fill="#135b49"/>
+
+  <text x="590" y="334" font-size="17" font-weight="300" fill="#5b6366" text-anchor="middle">less attractive</text>
+  <text x="850" y="334" font-size="17" font-weight="300" fill="#135b49" text-anchor="middle">more attractive</text>
+</svg>
