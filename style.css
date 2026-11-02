@@ -69,10 +69,6 @@ b, strong { font-weight: 500; }
 .tile ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 0.2rem; font-size: 0.9rem; color: var(--muted); }
 .tile li { padding-left: 1rem; position: relative; }
 .tile li::before { content: ""; position: absolute; left: 0; top: 0.72em; width: 0.5rem; height: 2px; background: var(--sage); }
-.kit { display: flex; flex-wrap: wrap; gap: 0.5rem 2.25rem; font-size: 0.88rem; color: var(--muted); }
-.kit p { display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem; }
-.kit b { font-size: 0.68rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--green); margin-right: 0.3rem; }
-.chip { border: 1px solid var(--sage-2); border-radius: 99px; padding: 0.05rem 0.55rem; font-size: 0.8rem; font-weight: 400; color: var(--ink); }
 
 /* sections of the flowing page */
 .sec { padding: 2rem 0 2.3rem; }
