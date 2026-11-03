@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="vis" viewBox="0 0 1000 400" role="img" aria-label="Ask five people, average now, trust track records later: five forecasters already capture 86 percent of what averaging the full crowd achieves." font-family="Roboto, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect width="1000" height="400" fill="#f1f5f0"/>
+  <text x="48" y="104" font-size="46" font-weight="300" fill="#135b49">Ask five people.</text>
+  <text x="48" y="158" font-size="46" font-weight="300" fill="#135b49">Average now.</text>
+  <text x="48" y="212" font-size="46" font-weight="300" fill="#135b49">Trust records later.</text>
+  <text x="48" y="261" font-size="19" font-weight="300" fill="#2f3639">With small crowds and short track records,</text>
+  <text x="48" y="288" font-size="19" font-weight="300" fill="#2f3639">the simple average is hard to beat. Records</text>
+  <text x="48" y="315" font-size="19" font-weight="300" fill="#2f3639">need about 60 questions to show skill.</text>
+
+  <text x="715" y="66" font-size="15" font-weight="500" fill="#5b6366" letter-spacing="1.5" text-anchor="middle">SHARE OF THE FULL CROWD'S GAIN</text>
+  <text x="520" y="290" font-size="16" font-weight="500" fill="#2f3639" text-anchor="middle">0%</text><text x="520" y="326" font-size="17" font-weight="400" fill="#2f3639" text-anchor="middle">1</text><rect x="572" y="192" width="52" height="108" rx="4" fill="#9dc09f"/><text x="598" y="182" font-size="16" font-weight="500" fill="#2f3639" text-anchor="middle">54%</text><text x="598" y="326" font-size="17" font-weight="400" fill="#2f3639" text-anchor="middle">2</text><rect x="650" y="158" width="52" height="142" rx="4" fill="#9dc09f"/><text x="676" y="148" font-size="16" font-weight="500" fill="#2f3639" text-anchor="middle">71%</text><text x="676" y="326" font-size="17" font-weight="400" fill="#2f3639" text-anchor="middle">3</text><rect x="728" y="128" width="52" height="172" rx="4" fill="#bb2649"/><text x="754" y="118" font-size="16" font-weight="500" fill="#bb2649" text-anchor="middle">86%</text><text x="754" y="326" font-size="17" font-weight="500" fill="#bb2649" text-anchor="middle">5</text><rect x="806" y="110" width="52" height="190" rx="4" fill="#9dc09f"/><text x="832" y="100" font-size="16" font-weight="500" fill="#2f3639" text-anchor="middle">95%</text><text x="832" y="326" font-size="17" font-weight="400" fill="#2f3639" text-anchor="middle">10</text><rect x="884" y="100" width="52" height="200" rx="4" fill="#9dc09f"/><text x="910" y="90" font-size="16" font-weight="500" fill="#2f3639" text-anchor="middle">100%</text><text x="910" y="326" font-size="17" font-weight="400" fill="#2f3639" text-anchor="middle">24</text>
+  <line x1="486" y1="300" x2="944" y2="300" stroke="#5b6366" stroke-width="1.5"/>
+  <text x="715" y="356" font-size="15" font-weight="300" fill="#5b6366" text-anchor="middle">people in the crowd</text>
+</svg>

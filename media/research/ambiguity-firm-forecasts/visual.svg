@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="vis" viewBox="0 0 1000 400" role="img" aria-label="Ambiguity changes the form of a forecast: pessimism lowers it, risk widens it, and under ambiguity firms keep the old number and leave the shock out. Schematic." font-family="Roboto, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <pattern id="amb-hatch" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="9" height="9" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="9" stroke="#d79ba5" stroke-width="4.5"/>
+    </pattern>
+  </defs>
+  <rect width="1000" height="400" fill="#f1f5f0"/>
+  <text x="48" y="104" font-size="46" font-weight="300" fill="#135b49">Ambiguity changes</text>
+  <text x="48" y="158" font-size="46" font-weight="300" fill="#135b49">the form of</text>
+  <text x="48" y="212" font-size="46" font-weight="300" fill="#135b49">a forecast.</text>
+  <text x="48" y="261" font-size="19" font-weight="300" fill="#2f3639">Pessimism lowers a forecast, risk widens it.</text>
+  <text x="48" y="288" font-size="19" font-weight="300" fill="#2f3639">Under ambiguity, firms leave the shock out,</text>
+  <text x="48" y="315" font-size="19" font-weight="300" fill="#2f3639">for winners and losers alike.</text>
+  <text x="48" y="352" font-size="15" font-weight="300" fill="#5b6366">Schematic, illustrative numbers.</text>
+
+  <text x="598" y="66" font-size="15" font-weight="500" fill="#5b6366" letter-spacing="1.5">THE FORECAST AFTER A SHOCK</text>
+  <text x="598" y="118" font-size="16" font-weight="400" fill="#5b6366" text-anchor="end">before</text><text x="598" y="178" font-size="16" font-weight="400" fill="#5b6366" text-anchor="end">pessimism</text><text x="598" y="238" font-size="16" font-weight="400" fill="#5b6366" text-anchor="end">risk</text><text x="598" y="298" font-size="16" font-weight="500" fill="#bb2649" text-anchor="end">ambiguity</text><rect x="762" y="96" width="60" height="32" rx="4" fill="none" stroke="#7d868a" stroke-width="2" stroke-dasharray="6 5"/><rect x="672" y="156" width="60" height="32" rx="4" fill="#135b49"/><rect x="642" y="216" width="150" height="32" rx="4" fill="#9dc09f"/><rect x="762" y="276" width="60" height="32" rx="4" fill="#135b49"/><rect x="834" y="276" width="84" height="32" rx="4" fill="url(#amb-hatch)" stroke="#bb2649" stroke-width="2"/><text x="876" y="332" font-size="15" font-weight="500" fill="#bb2649" text-anchor="middle">shock left out</text>
+</svg>
