@@ -66,6 +66,7 @@ b, strong { font-weight: 500; }
 .tile:nth-child(2) { border-top-color: var(--sage); }
 .tile:nth-child(3) { border-top-color: var(--crimson); }
 .tile h2 { font-size: 0.72rem; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; color: var(--green); }
+.tile-lead { font-weight: 500; font-size: 1.02rem; line-height: 1.4; }
 .tile ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 0.2rem; font-size: 0.9rem; color: var(--muted); }
 .tile li { padding-left: 1rem; position: relative; }
 .tile li::before { content: ""; position: absolute; left: 0; top: 0.72em; width: 0.5rem; height: 2px; background: var(--sage); }
@@ -105,7 +106,7 @@ h3.sub { font-size: 0.72rem; font-weight: 500; letter-spacing: 0.12em; text-tran
 .mini:hover { border-color: var(--green); background: var(--tint); color: var(--ink); }
 .mini-vis { display: block; aspect-ratio: 5 / 2; border-radius: 3px; overflow: hidden; background: var(--tint); }
 .mini-vis svg, .mini-vis img { display: block; width: 100%; height: 100%; object-fit: cover; }
-.mini-t { display: grid; gap: 0.05rem; line-height: 1.3; }
+.mini-t { display: grid; gap: 0.05rem; line-height: 1.3; min-width: 0; overflow-wrap: anywhere; }
 .mini-t b { font-weight: 400; font-size: 0.9rem; color: var(--green); }
 .mini-t small { font-size: 0.78rem; color: var(--muted); }
 
@@ -121,7 +122,7 @@ h3.sub { font-size: 0.72rem; font-weight: 500; letter-spacing: 0.12em; text-tran
 .card h3 { font-size: 1.05rem; font-weight: 400; line-height: 1.28; }
 .card a:hover h3 { color: var(--green); }
 .card .sum { font-size: 0.85rem; line-height: 1.45; color: var(--muted); }
-.cards.three .sum { display: -webkit-box; -webkit-line-clamp: 3; line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.cards.three .sum { display: -webkit-box; -webkit-line-clamp: 4; line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
 .go { margin-top: auto; padding-top: 0.35rem; font-size: 0.82rem; font-weight: 400; color: var(--green); }
 
 /* research: counts, four topics, three highlights */
@@ -173,6 +174,8 @@ h3.sub { font-size: 0.72rem; font-weight: 500; letter-spacing: 0.12em; text-tran
 .logo { display: block; width: 2.9rem; height: 2.9rem; object-fit: contain; border-radius: 6px; }
 .logo.badge { display: grid; place-items: center; background: var(--tint); border: 1px solid var(--sage-2); color: var(--green); font-size: 0.72rem; font-weight: 500; letter-spacing: 0.02em; text-align: center; line-height: 1.05; padding: 0.15rem; overflow: hidden; }
 .logo.badge.long { font-size: 0.6rem; letter-spacing: 0; }
+.logo.icon { display: grid; place-items: center; background: var(--tint); border: 1px solid var(--sage-2); padding: 0.2rem; }
+.logo.icon svg { display: block; width: 100%; height: 100%; }
 .st-kicker { display: flex; flex-wrap: wrap; gap: 0.2rem 0.7rem; font-size: 0.66rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--green); }
 .st-kicker span + span { color: var(--grey-2); font-variant-numeric: tabular-nums; }
 .st-tag { display: none; }
