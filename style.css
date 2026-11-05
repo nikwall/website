@@ -237,6 +237,7 @@ a.pbtn:hover { border-color: var(--green); background: var(--tint); color: var(-
 
 /* project pages and legal pages */
 .page { max-width: 56rem; margin: 0 auto; padding: 1.25rem var(--gutter) 2.5rem; display: grid; gap: 1.6rem; }
+.page-wide { max-width: var(--wrap); }
 .back { font-size: 0.88rem; font-weight: 400; text-decoration: none; }
 .back::before { content: "← "; }
 .page-head { display: grid; gap: 0.65rem; }
