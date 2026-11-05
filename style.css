@@ -124,7 +124,7 @@ h3.sub { font-size: 0.72rem; font-weight: 500; letter-spacing: 0.12em; text-tran
 .card h3 { font-size: 1.05rem; font-weight: 400; line-height: 1.28; }
 .card a:hover h3 { color: var(--green); }
 .card .sum { font-size: 0.85rem; line-height: 1.45; color: var(--muted); }
-.cards.three .sum { display: -webkit-box; -webkit-line-clamp: 4; line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
+.cards.three .sum { display: -webkit-box; -webkit-line-clamp: 5; line-clamp: 5; -webkit-box-orient: vertical; overflow: hidden; }
 /* project marks: top right of the card text, just touching the picture, like the journal covers */
 .card-body.has-marks { position: relative; }
 .card-body.has-marks > .kicker { padding-right: calc(var(--marks, 3) * 2.6rem); min-height: 1.1rem; }
