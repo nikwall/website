@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" class="vis" viewBox="0 0 1000 400" role="img" aria-label="AI models err alike, people win when they are organized: members of the public share 70 percent of their forecast error, AI models 86 percent, and the best tool-using system shares 93 percent with the best plain model." font-family="Roboto, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" class="vis" viewBox="0 0 1000 400" role="img" aria-label="AI models err alike, people win when they are organized: net of luck, AI models share at least 73 percent of their forecast mistakes, members of the public at least 42 percent." font-family="Roboto, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
   <rect width="1000" height="400" fill="#f1f5f0"/>
   <text x="48" y="104" font-size="46" font-weight="300" fill="#135b49">AI models err alike.</text>
   <text x="48" y="158" font-size="46" font-weight="300" fill="#135b49">People win when</text>
   <text x="48" y="212" font-size="46" font-weight="300" fill="#135b49">they are organized.</text>
-  <text x="48" y="261" font-size="19" font-weight="300" fill="#2f3639">Share of each forecaster's error that the</text>
-  <text x="48" y="288" font-size="19" font-weight="300" fill="#2f3639">others make too: people 70%, AI models 86%,</text>
-  <text x="48" y="315" font-size="19" font-weight="300" fill="#2f3639">best tool-using system and best model 93%.</text>
+  <text x="48" y="261" font-size="19" font-weight="300" fill="#2f3639">Share of each forecaster's mistakes that</text>
+  <text x="48" y="288" font-size="19" font-weight="300" fill="#2f3639">the others make too, net of luck: at least</text>
+  <text x="48" y="315" font-size="19" font-weight="300" fill="#2f3639">73% for AI models, 42% for people.</text>
 
   <polygon points="505,205 905,30 905,380" fill="#9dc09f" opacity="0.16"/>
   <g fill="none" stroke="#9dc09f" stroke-width="5" stroke-linecap="round" stroke-dasharray="0.5 11">
@@ -30,6 +30,6 @@
     <circle cx="872" cy="212" r="4.5"/><circle cx="872" cy="219" r="4.5"/>
   </g>
   <circle cx="505" cy="205" r="12" fill="#135b49"/><circle cx="505" cy="205" r="4.5" fill="#f1f5f0"/>
-  <text x="982" y="28" font-size="15" font-weight="500" fill="#5b6366" letter-spacing="1.5" text-anchor="end">PEOPLE · 70% SHARED</text>
-  <text x="982" y="178" font-size="15" font-weight="500" fill="#bb2649" letter-spacing="1.5" text-anchor="end">AI · 86–93%</text>
+  <text x="982" y="28" font-size="15" font-weight="500" fill="#5b6366" letter-spacing="1.5" text-anchor="end">PEOPLE · AT LEAST 42%</text>
+  <text x="982" y="178" font-size="15" font-weight="500" fill="#bb2649" letter-spacing="1.5" text-anchor="end">AI · AT LEAST 73%</text>
 </svg>
